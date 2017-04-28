@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WW2 Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/validate.js"></script>
+  </head>
+  
+<!--went against the form validation with the built in HTML 5 as didnt offer enough constriction while users enered data-->
+<link rel="shortcut icon" href="images/Favicon.jpg"/><!-- favicon of helmet-->
+
+<body>
+    <div id="content">
+      <div>
+        <h1 id="banner">WW2 Quiz</h1>
+      </div>
+      <div class="row">
+        <div class="image"><img src="images/M1.JPG" alt="applogo">
+        </div>
+        <div class="formLayout">
+          <form id="myForm" method="post" action="questions.html" onsubmit="return validate(this)"><!--with action here bringing you to the quiz there is no need for A href(this may have workedd for my html setup validation but ive deleted the code and i guess ll never know)-->
+            <label id="word">First name:</label>
+              <input type="text" maxlength="10" name="forename"><br><br>
+            <label id="word">Surname:</label>
+              <td><input type="text" maxlength="100" name="surname"><br><br>
+            <label id="word">Username:</label>
+              <input type="text" maxlength="100" name="username"><br><br>
+            <label id="word">Password:</label>
+              <input type="text" maxlength="10" name="password"><br><br>
+            <label id="word">Mobile:</label>
+              <input type="text" maxlength="10"  name="mobile"><br><br>
+            <label id="word">Email:</label>
+              <input type="text" maxlength="64" name="email"><br><br>
+            
+			<input type="submit" value="Signup">
+			
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+
+</body>
+</html>

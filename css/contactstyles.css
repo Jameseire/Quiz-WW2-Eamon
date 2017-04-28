@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#collegegmaps
+{
+	float:left
+}
+
+#Address
+{
+	float: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#Address2
+{
+	float: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+footer{
+	
+	margin-top: 100px;
+	padding:10px;	
+	clear: both;
+	color: white;
+	font-weight: bold;
+	}
